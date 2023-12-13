@@ -58,7 +58,7 @@ def handle_signal(msg):
         bot.sendMessage(chat_id, f"Error: {str(e)}")
 
 # Telegram bot initialization
-bot = telepot.Bot('Your_Telegram_Bot_Token_Here')
+bot = telepot.Bot("6601901997:AAFTBWHB9chcV9acDrhZaWItiAd_RylGu8c")
 
 # Start message loop and define handlers
 MessageLoop(bot, {
